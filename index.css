@@ -1,0 +1,60 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: grid;
+    
+    justify-content: center;
+    place-items: center;
+    border-radius: 20px;
+    overflow-y:hidden;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Montserrat;
+    font-family: Fraunces;
+}
+
+/*
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+*/
+
+
+.container_text {
+    display: inline;
+  }
+
+
+.main-section{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 1fr;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    width: 300px;
+    height: 500px;
+    
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border-radius: 2%;
+  }
+
+p{
+    font-family: Montserrat;
+    font-family: Fraunces;
+    line-height: 125%;
+    font-size: 16px;
+    color: gray;
+}
