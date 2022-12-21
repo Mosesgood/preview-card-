@@ -26,6 +26,7 @@ img {
 
 .container_text {
     display: inline;
+    margin-left: 20px;
   }
 
 
@@ -42,6 +43,7 @@ img {
     padding: 2rem;
     border-radius: 20px;
     margin: 0 auto;
+    
 }
 
 img {
@@ -57,4 +59,17 @@ p{
     line-height: 125%;
     font-size: 16px;
     color: gray;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%); 
+    width: 200px; 
+    height: 50px; 
+    border-radius: 5px
+}
+
+.button:hover {
+    background-color: hsl(158, 34%, 23%);
+    transition: 0.7s;
+    cursor: pointer;
 }
