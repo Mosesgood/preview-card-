@@ -13,9 +13,10 @@ body{
 }
 
 h1{
+   
     font-size: 20px;
-    font-family: Montserrat;
-    font-family: Fraunces;
+    font-family: 'Fraunces', serif;
+    
 }
 
 /*
@@ -57,8 +58,8 @@ img {
   }
 
 p{
-    font-family: Montserrat;
-    font-family: Fraunces;
+    font-family: 'Montserrat', serif;
+    
     line-height: 125%;
     font-size: 16px;
     color: gray;
@@ -79,12 +80,19 @@ button{
 }
 
 .small{
-    font-size: 12px; 
-    color: hsl(228, 12%, 48%);
+    font-size: 14px; 
+    color: hsl(228, 6%, 46%);
     text-align: left;
+    font-family: 'Montserrat', serif;
 }
 
 @media screen and (max-width: 480px) {
+    h1{
+        font-family: 'Fraunces', serif;
+    }
+    p{
+        font-family: 'Montserrat', serif;
+    }
     img {  
         width: 400px;
         height: 400px;
@@ -99,15 +107,19 @@ button{
     .container_text{
         background-color: white;
         width: 400px;
+        padding-top: 10px;
+        border-radius: 5px;
     }
     button{
         background-color: hsl(158, 36%, 37%); 
         width: 100px; 
         height: 50px; 
         border-radius: 5px
+        
     }
     .small{
-        font-size: 18px; 
+        font-size: 20px; 
         color: hsl(228, 12%, 48%);
+        font-family: 'Montserrat', serif;
     }
 }
